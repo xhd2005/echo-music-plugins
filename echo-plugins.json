@@ -11,6 +11,11 @@
       "id": "music-stats",
       "repo": "xhd2005/echo-music-stats",
       "tags": ["统计", "报告", "可视化", "本地"]
+    },
+    {
+      "id": "echo-music-download",
+      "repo": "xhd2005/echo-music-download",
+      "tags": ["下载", "酷狗", "本地", "aria2"]
     }
   ]
 }
