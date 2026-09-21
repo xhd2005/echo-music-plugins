@@ -5,19 +5,19 @@
     {
       "id": "daily-vip-claim",
       "repo": "xhd2005/echo-music-daily-vip-claim",
-      "downloadUrl": "https://github.com/xhd2005/echo-music-daily-vip-claim/releases/latest/download/daily-vip-claim-v2.1.0.zip",
+      "downloadUrl": "https://github.com/xhd2005/echo-music-daily-vip-claim/releases/download/v2.1.0/daily-vip-claim-v2.1.0.zip",
       "tags": ["vip", "会员", "畅听", "每日领取", "打卡"]
     },
     {
       "id": "music-stats",
       "repo": "xhd2005/echo-music-stats",
-      "downloadUrl": "https://github.com/xhd2005/echo-music-stats/releases/latest/download/music-stats-v1.2.1.zip",
+      "downloadUrl": "https://github.com/xhd2005/echo-music-stats/releases/download/v1.2.1/music-stats-v1.2.1.zip",
       "tags": ["统计", "报告", "可视化", "本地", "热力图"]
     },
     {
       "id": "echo-music-download",
       "repo": "xhd2005/echo-music-download",
-      "downloadUrl": "https://github.com/xhd2005/echo-music-download/releases/latest/download/echo-music-download-v1.1.0.zip",
+      "downloadUrl": "https://github.com/xhd2005/echo-music-download/releases/download/v1.1.0/echo-music-download-v1.1.0.zip",
       "tags": ["下载", "酷狗", "本地", "aria2"]
     }
   ]
