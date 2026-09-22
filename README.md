@@ -24,7 +24,7 @@ https://github.com/xhd2005/echo-music-plugins
 
 | 插件 | 仓库 | 说明 |
 | --- | --- | --- |
-| 🎁 每日畅听会员领取 (`v2.1.0`) | [echo-music-daily-vip-claim](https://github.com/xhd2005/echo-music-daily-vip-claim) | 每日领取 1 天畅听会员、概念特权升级与听歌/广告打卡，标题栏动态天数胶囊、SQLite 本地流水账本与任务中心调度 |
+| 🎁 每日畅听会员领取 (`v2.1.1`) | [echo-music-daily-vip-claim](https://github.com/xhd2005/echo-music-daily-vip-claim) | 每日领取 1 天畅听会员、概念特权升级与听歌/广告打卡，账本视觉美化、存盘修复、冷启动历史回填与任务中心自动清理 |
 | 📊 听歌统计 (`v1.2.2`) | [echo-music-stats](https://github.com/xhd2005/echo-music-stats) | 本地听歌统计报告：热力图连胜/即指即显实时检视、歌曲榜单对称平滑滚动、完播率/切歌分析、24小时生物钟、听歌画像成就徽章 |
 | 🎵 歌曲下载 | [echo-music-download](https://github.com/xhd2005/echo-music-download) | 酷狗歌曲下载到本地，128/320 音质、批量队列、并发下载 |
 
