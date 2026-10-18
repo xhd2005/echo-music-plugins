@@ -5,35 +5,41 @@
     {
       "id": "daily-vip-claim",
       "repo": "xhd2005/echo-music-daily-vip-claim",
-      "downloadUrl": "https://github.com/xhd2005/echo-music-daily-vip-claim/releases/download/v2.2.0/daily-vip-claim-v2.2.0.zip",
+      "downloadUrl": "https://github.com/xhd2005/echo-music-daily-vip-claim/releases/download/v2.3.0/daily-vip-claim-v2.3.0.zip",
       "tags": [
         "vip",
         "会员",
         "畅听",
         "每日领取",
-        "打卡"
+        "打卡",
+        "黑曜石",
+        "连胜轨道"
       ]
     },
     {
       "id": "music-stats",
       "repo": "xhd2005/echo-music-stats",
-      "downloadUrl": "https://github.com/xhd2005/echo-music-stats/releases/download/v1.2.2/music-stats-v1.2.2.zip",
+      "downloadUrl": "https://github.com/xhd2005/echo-music-stats/releases/download/v1.3.0/music-stats-v1.3.0.zip",
       "tags": [
         "统计",
         "报告",
         "可视化",
         "本地",
-        "热力图"
+        "热力图",
+        "多账号",
+        "金属徽章"
       ]
     },
     {
       "id": "echo-music-download",
       "repo": "xhd2005/echo-music-download",
-      "downloadUrl": "https://github.com/xhd2005/echo-music-download/releases/download/v1.1.0/echo-music-download-v1.1.0.zip",
+      "downloadUrl": "https://github.com/xhd2005/echo-music-download/releases/download/v2.0.0/echo-music-download-v2.0.0.zip",
       "tags": [
         "下载",
         "酷狗",
-        "本地",
+        "流式下载",
+        "断点续传",
+        "沙箱授权",
         "aria2"
       ]
     }
