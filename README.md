@@ -4,13 +4,13 @@
 
 # 🔌 xhd2005 的 EchoMusic 插件源
 
-**一个源，收录全部插件 —— 每日畅听会员领取 + 听歌统计 + 歌曲下载 (`v2.0.0`)**
+**一个源，收录全部插件 —— 每日畅听会员领取 (`v2.4.0`) + 听歌统计 (`v1.4.0`) + 歌曲下载 (`v2.1.0`)**
 
-[![EchoMusic](https://img.shields.io/badge/EchoMusic-%E2%89%A52.2.7--beta.9-31cfa1?style=flat-square&logo=electron&logoColor=fff)](https://github.com/hoowhoami/EchoMusic)
+[![EchoMusic](https://img.shields.io/badge/EchoMusic-%E2%89%A52.2.7--beta.9%20%7C%20v2.3.3-31cfa1?style=flat-square&logo=electron&logoColor=fff)](https://github.com/hoowhoami/EchoMusic)
 
 </div>
 
-这是 [EchoMusic](https://github.com/hoowhoami/EchoMusic) 插件市场的**聚合插件源**。添加本仓库地址后，即可同时发现并安装下列插件，无需逐个添加源。
+这是 [EchoMusic](https://github.com/hoowhoami/EchoMusic) 插件市场的**聚合插件源**，已全面适配最新 `EchoMusic v2.3.2 / v2.3.3-beta.1`（并向下兼容 `>=2.2.7-beta.9`）。添加本仓库地址后，即可同时发现并安装下列插件，无需逐个添加源。
 
 ## 🚀 快速开始
 
@@ -24,9 +24,9 @@ https://github.com/xhd2005/echo-music-plugins
 
 | 插件 | 仓库 | 说明 |
 | --- | --- | --- |
-| 🎁 每日畅听会员领取 (`v2.3.0`) | [echo-music-daily-vip-claim](https://github.com/xhd2005/echo-music-daily-vip-claim) | 每日领取 1 天畅听会员、概念特权升级与听歌/广告打卡，账本视觉美化、存盘修复、冷启动历史回填与任务中心自动清理 |
-| 📊 听歌统计 (`v1.3.0`) | [echo-music-stats](https://github.com/xhd2005/echo-music-stats) | 本地听歌统计报告：热力图连胜/即指即显实时检视、歌曲榜单对称平滑滚动、完播率/切歌分析、24小时生物钟、听歌画像成就徽章 |
-| 🎵 歌曲下载 | [echo-music-download](https://github.com/xhd2005/echo-music-download) | 酷狗歌曲下载到本地，128/320 音质、批量队列、并发下载 |
+| 🎁 每日畅听会员领取 (`v2.4.0`) | [echo-music-daily-vip-claim](https://github.com/xhd2005/echo-music-daily-vip-claim) | 每日领取 1 天畅听会员、概念特权升级与听歌/广告打卡；适配新版个人中心 `.profile-details` 卡片挂载、多账号 SQLite 独立账本、7 天连胜里程碑轨道、标题栏/底栏双胶囊与 `ctx.kugouVerification.request` 安全验证桥接 |
+| 📊 听歌统计 (`v1.4.0`) | [echo-music-stats](https://github.com/xhd2005/echo-music-stats) | 本地听歌统计中心：SQLite `user_id` 多账号数据隔离与「当前账号 / 全部账号」视图切换、`ctx.fs` 原生目录授权直接导出 JSON/CSV、365天热力图、24小时生物钟、完播率/切歌分析与 6 大成就勋章 |
+| 🎵 歌曲下载 (`v2.1.0`) | [echo-music-download](https://github.com/xhd2005/echo-music-download) | 酷狗歌曲下载到本地：支持 `ctx.net.download` 原生流式下载引擎与 `ctx.fs.requestDirectory` 持久化目录沙箱授权，内置 `aria2c` 引擎兜底回退，支持 128/320 音质、批量队列与断点续传 |
 
 ## 🔧 工作原理
 
@@ -35,15 +35,16 @@ https://github.com/xhd2005/echo-music-plugins
 ```json
 {
   "name": "xhd2005 的 EchoMusic 插件源",
+  "homepage": "https://github.com/xhd2005/echo-music-plugins",
   "plugins": [
-    { "id": "daily-vip-claim",   "repo": "xhd2005/echo-music-daily-vip-claim", "tags": ["vip", "会员", "畅听", "每日领取"] },
-    { "id": "music-stats",       "repo": "xhd2005/echo-music-stats",         "tags": ["统计", "报告", "可视化", "本地"] },
-    { "id": "echo-music-download","repo": "xhd2005/echo-music-download",     "tags": ["下载", "酷狗", "本地", "aria2"] }
+    { "id": "daily-vip-claim",    "repo": "xhd2005/echo-music-daily-vip-claim", "tags": ["vip", "会员", "畅听", "每日领取"] },
+    { "id": "music-stats",        "repo": "xhd2005/echo-music-stats",           "tags": ["统计", "报告", "可视化", "本地"] },
+    { "id": "echo-music-download","repo": "xhd2005/echo-music-download",        "tags": ["下载", "酷狗", "流式下载", "aria2"] }
   ]
 }
 ```
 
-- 各插件独立仓库、独立版本、独立 release，互不影响
+- 各插件独立仓库、独立版本，互不影响
 - 新增 / 更名插件时，仅需更新本仓库的索引一行
 
 ## 📄 许可证
