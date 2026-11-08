@@ -3,6 +3,31 @@
   "homepage": "https://github.com/xhd2005/echo-music-plugins",
   "plugins": [
     {
+      "id": "echo-music-unblock",
+      "repo": "xhd2005/echo-music-unblock",
+      "tags": [
+        "解灰",
+        "换源",
+        "无损提质",
+        "双语歌词",
+        "本地匹配",
+        "多音源"
+      ]
+    },
+    {
+      "id": "echo-music-download",
+      "repo": "xhd2005/echo-music-download",
+      "tags": [
+        "下载",
+        "酷狗",
+        "ID3v2",
+        "FLAC",
+        "封面歌词内嵌",
+        "歌单增量同步",
+        "流式下载"
+      ]
+    },
+    {
       "id": "daily-vip-claim",
       "repo": "xhd2005/echo-music-daily-vip-claim",
       "tags": [
@@ -26,18 +51,6 @@
         "热力图",
         "多账号隔离",
         "目录导出"
-      ]
-    },
-    {
-      "id": "echo-music-download",
-      "repo": "xhd2005/echo-music-download",
-      "tags": [
-        "下载",
-        "酷狗",
-        "流式下载",
-        "断点续传",
-        "目录授权",
-        "aria2"
       ]
     }
   ]
