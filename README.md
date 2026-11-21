@@ -4,7 +4,7 @@
 
 # 🔌 xhd2005 的 EchoMusic 插件源
 
-**一个源，收录全部四大核心插件 —— 灰歌解灰与多源换源 (`v1.1.1`) + 歌曲下载与标签内嵌 (`v2.4.4`) + 每日畅听会员领取 (`v2.5.2`) + 听歌统计 (`v1.6.0`)**
+**一个源，收录全部四大核心插件 —— 灰歌解灰与多源换源 (`v1.1.1`) + 歌曲下载与标签内嵌 (`v2.4.5`) + 每日畅听会员领取 (`v2.5.2`) + 听歌统计 (`v1.6.0`)**
 
 [![EchoMusic](https://img.shields.io/badge/EchoMusic-%E2%89%A52.3.2%20%7C%20v2.3.3-31cfa1?style=flat-square&logo=electron&logoColor=fff)](https://github.com/hoowhoami/EchoMusic)
 
@@ -25,7 +25,7 @@ https://github.com/xhd2005/echo-music-plugins
 | 插件 | 仓库 | 说明 |
 | --- | --- | --- |
 | 🔓 灰歌解灰与多源换源 (`v1.1.1`) | [echo-music-unblock](https://github.com/xhd2005/echo-music-unblock) | 全链路灰歌自动解灰、低码率无损提质与双语歌词兜底；主进程 `ctx.net.request` 零 CORS 硬超时链路、原生下划线 `Tabs` + `Dialog` 换源弹窗、独立「已锁定音源」管理与过期直链自动续链及一键联动下载 |
-| 🎵 歌曲下载 (`v2.4.4`) | [echo-music-download](https://github.com/xhd2005/echo-music-download) | 原生极简 4 格仪表盘概览 + 3 格快捷导入卡 + 双 Tab（「正在下载 / 已下载」）；`handle.wait()` + `getSnapshot()` 瞬时完成同步 + 后处理硬超时 + 三级自动回退彻底告别卡顿与误报，支持双击本地播放、纯 JS MP3/FLAC 标签内嵌及双语 `.lrc` 导出 |
+| 🎵 歌曲下载 (`v2.4.5`) | [echo-music-download](https://github.com/xhd2005/echo-music-download) | 原生极简 4 格仪表盘概览 + 3 格快捷导入卡 + 双 Tab（「正在下载 / 已下载」）；彻底修复 Vue 3 Proxy 句柄比较导致的进度卡死问题，实时进度/速率/标签与完成状态 100% 同步，支持双击本地播放、纯 JS MP3/FLAC 标签内嵌及双语 `.lrc` 导出 |
 | 🎁 每日畅听会员领取 (`v2.5.2`) | [echo-music-daily-vip-claim](https://github.com/xhd2005/echo-music-daily-vip-claim) | 原生 `Dialog` 畅听账本与四步打卡可视化进度（特权升级识别、听歌打卡四通道官方上报链告别 `ERR_EMPTY_RESPONSE`、真实失败诊断与单步「重试」）、当月打卡日历网格 + 多账号 SQLite 独立账本 |
 | 📊 听歌统计 (`v1.6.0`) | [echo-music-stats](https://github.com/xhd2005/echo-music-stats) | 全新原生三 Tab 等高栅格架构（「总览 / 榜单 / 习惯与画像」）：4 格统一高度 KPI、单张满宽自适应高光卡、严格 `stretch` 等高双列榜单与图表、统一底栏成就徽章、热力图/歌手侧滑 `Drawer` 下钻与分账号安全清理 |
 
